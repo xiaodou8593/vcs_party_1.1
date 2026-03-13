@@ -1,0 +1,7 @@
+#vp_core:constructors/player_setup/doc.mcfo
+
+# player_setup临时对象
+_this:{
+	progress:<vp_progress,int>,
+	player_set_func:[storage vp_core:io player_set_func,String]
+}

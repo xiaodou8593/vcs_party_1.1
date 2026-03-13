@@ -1,0 +1,10 @@
+#vp_core:utils/structure_saver/doc.mcfo
+
+# structure_saver临时对象
+_this:{
+	field_size:[storage vp_core:io field_size,Int],
+	field_height:[storage vp_core:io field_height,Int],
+	field_center:[storage vp_core:io field_center,ListDouble,3],
+	field_index:[storage vp_core:io field_index,Int],
+	structure_prefix:[storage vp_core:io structure_prefix,String]
+}

@@ -1,0 +1,3 @@
+_this:{
+	progress:<vp_progress,int>
+}

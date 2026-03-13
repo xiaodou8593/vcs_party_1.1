@@ -1,0 +1,7 @@
+#$(module_prefix)set
+# $(module_prefix)_new调用
+
+$assign $(_entity) $(_input_plate)
+
+# 获取模块编号
+scoreboard players operation @s module_id = #$(module_prefix) module_id

@@ -1,0 +1,7 @@
+#vp_core:utils/game_select_ui/doc.mcfo
+
+# game_select_ui临时对象
+_this:{
+	pages:[storage vp_core:io game_select_ui_pages,Int],
+	modular:[storage vp_core:io game_select_ui_mod,Int]
+}

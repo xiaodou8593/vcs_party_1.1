@@ -1,0 +1,7 @@
+#vp_core:constructors/player_teleport/doc.mcfo
+
+# player_teleport临时对象
+_this:{
+	progress:<vp_progress,int>,
+	tp_points:[storage vp_core:io tp_points,ListVoid]
+}

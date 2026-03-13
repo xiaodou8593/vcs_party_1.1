@@ -1,0 +1,14 @@
+#vp_core:constructors/barrier_builder/doc.mcfo
+
+# barrier_builder临时对象
+_this:{
+	progress:<vp_progress,int>,
+	field_size:[storage vp_core:io field_size,Int],
+	field_height:[storage vp_core:io field_height,Int],
+	field_center:[storage vp_core:io field_center,ListDouble,3],
+	field_index:[storage vp_core:io field_index,Int],
+	structure_prefix:[storage vp_core:io structure_prefix,String],
+	x_index:<x_index,int>,
+	y_index:<y_index,int>,
+	z_index:<z_index,int>
+}

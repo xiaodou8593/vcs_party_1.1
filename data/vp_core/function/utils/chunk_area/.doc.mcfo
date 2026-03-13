@@ -1,0 +1,11 @@
+#vp_core:utils/chunk_area/doc.mcfo
+
+# chunk_area临时对象
+_this:{
+	x_min:<x_min,int>,
+	x_max:<x_max,int>,
+	y_min:<y_min,int>,
+	y_max:<y_max,int>,
+	area_value:<area_value,int>,
+	area_info:[storage vp_core:io area_info,Compound]
+}

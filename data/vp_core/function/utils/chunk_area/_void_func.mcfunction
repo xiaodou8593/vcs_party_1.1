@@ -1,0 +1,1 @@
+#vp_core:utils/chunk_area/_void_func

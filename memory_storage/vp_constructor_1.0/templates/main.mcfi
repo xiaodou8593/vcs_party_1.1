@@ -1,0 +1,9 @@
+#$(module_prefix)main
+# $(module_prefix)tick调用
+# 实体对象主程序
+
+function $(module_prefix)_get
+execute if score vp_progress int matches 0 run function $(module_prefix)_start
+function $(module_prefix)_iter
+function $(module_prefix)_store
+execute if score vp_progress int matches 100 run function $(module_prefix)_del

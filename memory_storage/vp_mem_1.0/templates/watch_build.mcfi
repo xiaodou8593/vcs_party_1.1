@@ -1,0 +1,8 @@
+#$(module_prefix)watch_build
+# $(module_prefix)_build_async_start调用
+
+function $(module_prefix)_get_tp_points
+data modify entity @s Pos set from storage $(project_name):io result[0]
+execute at @s run tp @a[tag=vp_joiner] ~ ~48 ~
+
+tp @s 0 0 0

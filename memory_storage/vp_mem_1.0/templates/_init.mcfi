@@ -1,0 +1,4 @@
+#$(module_prefix)_init
+# 初始化$(module_name)模块
+
+data modify storage $(project_name):io rec set value []
