@@ -21,6 +21,7 @@ data modify entity @e[tag=vp_game_select_ui,limit=1] start_interpolation set val
 data modify entity @e[tag=vp_game_select_ui_text,limit=1] text set from storage vp_core:class list_games[0].game_name
 
 # 更新小游戏介绍
+data modify storage vp_core:io temp_lore set value []
 data modify storage vp_core:io temp_lore set from storage vp_core:class list_games[0].game_desc
 data modify storage vp_core:io temp_lore append value [""]
 data modify storage vp_core:io temp_lore append value [""]
