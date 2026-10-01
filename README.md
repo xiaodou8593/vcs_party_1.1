@@ -1,6 +1,6 @@
-# vcs_party_1.1使用文档
+# vcs_party_1.1介绍文档
 
-&gt; 适用版本：1.21.11 \~ (?)  
+&gt; 适用版本：26.3 \~ (?)  
 &gt; 前置依赖：iframe_1.2  
 &gt; 命名空间：vp_core, module_control
 
