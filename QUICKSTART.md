@@ -263,4 +263,10 @@ function my_vp_project:test_game/_init
 function my_vp_project:test_game/_reg
 ```
 
+回到大厅（需要注意的是，大厅中的玩家才被视为等待加入游戏）
+
+```mcfunction
+function vp_core:hall_example/_enter
+```
+
 使用实例大厅中的悬浮UI，选择该游戏实例点击`waiting`即可进入测试
