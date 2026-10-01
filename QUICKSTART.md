@@ -246,8 +246,21 @@ execute at 0-0-0-0-0 run particle flame
 
 编写`death_func.mcfunction`/`respawn_func.mcfunction`即可
 
+**更改gamerule**
+
+可以任意更改，而不会影响到其它派对小游戏。因为每次加载小游戏都会重置所有规则。
+
 ### 8.游戏实例销毁
 
 `_del_async_start.mcfunction`是游戏的销毁程序。游戏中产生的各类资源，如`bossbar`、`team`、`scoreboard`、`waypoint`等可以在此处删除。
 
 游戏中产生的所有实体也需要销毁，你可以为它们打上`vp_instance`标签来实现自动销毁。
+
+### 9.游戏注册与测试
+
+```mcfunction
+function my_vp_project:test_game/_init
+function my_vp_project:test_game/_reg
+```
+
+使用实例大厅中的悬浮UI，选择该游戏实例点击`waiting`即可进入测试
