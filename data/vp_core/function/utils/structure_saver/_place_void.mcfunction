@@ -1,4 +1,4 @@
-#vp_core:utils/structure_saver/_place_structure
+#vp_core:utils/structure_saver/_place_void
 # 以field_center为中心清空field_index指向的结构
 # 占用temp{<temp_x,int>,<temp_y,int>,<temp_z,int>,<temp_sx,int>,<temp_sy,int>,<temp_sz,int>,<temp_l,int>,<temp_s,int>,<temp_h,int>,<temp_area,int>,<temp_volume,int>,<temp_i,int>}
 # 占用[storage math:io xyz,ListDouble,3]

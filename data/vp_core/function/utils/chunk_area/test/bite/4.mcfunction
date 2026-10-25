@@ -1,4 +1,4 @@
-#vp_core:utils/chunk_area/test/bite/1
+#vp_core:utils/chunk_area/test/bite/4
 
 scoreboard players set x_min int 3
 scoreboard players set x_max int 5

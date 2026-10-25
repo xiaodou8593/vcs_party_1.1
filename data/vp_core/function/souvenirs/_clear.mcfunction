@@ -1,4 +1,4 @@
-#vp_core:souvenirs/clear
+#vp_core:souvenirs/_clear
 # 清空已注册纪念品
 
 data modify storage vp_core:io list_souvenirs set value []
